@@ -1,0 +1,13 @@
+spring: 
+  application:
+    name: SpringBootMQListener
+  profiles:
+    active: development
+  cloud:
+    config:
+      uri: http://localhost:8888
+
+management:
+  security:
+    enabled: false
+ 
